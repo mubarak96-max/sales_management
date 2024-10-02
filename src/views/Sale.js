@@ -6,20 +6,20 @@ import { products } from 'assets/data/products';
 import { customers } from 'assets/data/customers';
 
 const Sale = () => {
-  const [image, setImage] = useState(null);
+//   const [image, setImage] = useState(null);
   const [selectedSupplier, setSelectedSupplier] = useState('');
   const [filteredProducts, setFilteredProducts] = useState([]);
 
-  const handleImageChange = (event) => {
-    const file = event.target.files[0];
-    if (file) {
-      setImage(URL.createObjectURL(file)); // Create a preview URL
-    }
-  };
+//   const handleImageChange = (event) => {
+//     const file = event.target.files[0];
+//     if (file) {
+//       setImage(URL.createObjectURL(file)); // Create a preview URL
+//     }
+//   };
 
-  const handleUploadClick = () => {
-    document.getElementById('image-upload-input').click(); // Trigger the file input click
-  };
+//   const handleUploadClick = () => {
+//     document.getElementById('image-upload-input').click(); // Trigger the file input click
+//   };
 
   const handleSupplierChange = (event) => {
     const supplierName = event.target.value.toLowerCase(); // Convert selected value to lowercase
