@@ -64,7 +64,7 @@ const AddEditProduct = () => {
         {/* Second Row */}
         <Box display="flex" gap={2}>
           <TextField  label="Brand" variant="outlined" />
-          <TextField  label="Stock" variant="outlined" />
+          <TextField  label="Supplier" variant="outlined" />
           <TextField f label="Price" variant="outlined" />
         </Box>
 
