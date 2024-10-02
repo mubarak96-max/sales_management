@@ -59,7 +59,7 @@ export default function Customers() {
                 return (
                   <TableRow hover role="checkbox" tabIndex={-1} key={row.id}>
                     {columns.map((column) => {
-                      const value = row[column.id];
+                    //   const value = row[column.id];
                       return (
                         <TableRow hover role="checkbox" tabIndex={-1} key={row.id}>
                         <TableCell key={row.id} align="left">

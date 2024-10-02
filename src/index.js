@@ -12,10 +12,10 @@ import Auth from "layouts/Auth.js";
 
 // views without layouts
 
-import Landing from "views/Landing.js";
-import Profile from "views/Profile.js";
-import Index from "views/Index.js";
-import Dashboard from "views/admin/Dashboard";
+// import Landing from "views/Landing.js";
+// import Profile from "views/Profile.js";
+// import Index from "views/Index.js";
+// import Dashboard from "views/admin/Dashboard";
 
 ReactDOM.render(
   <BrowserRouter>
